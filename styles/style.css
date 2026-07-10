@@ -62,7 +62,7 @@ nav ul li {
     justify-content: center;
     align-items: center;
     height: 786px;
-    width: 1551px;
+   
 }
 
 .body-para {
@@ -271,6 +271,15 @@ ul li a {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
+}
+
+.cart{
+    background: whitesmoke;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.09);
+    width: 300px;
 }
 
 
