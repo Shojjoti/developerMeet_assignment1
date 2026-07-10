@@ -80,12 +80,11 @@ ul li a {
 }
 
 .person-div {
-    border-color: 2px solid #e5e7ebe5;
-    height: 460px;
-    width: 644px;
+    border-color: 2px solid #e5e7ebe5;    
     border-radius: 12px;
     overflow: hidden;
     background: white;
+    box-shadow: 0 10px 20px #575757;
 }
 
 .person {
@@ -95,6 +94,11 @@ ul li a {
     max-width: 1200px;
     margin: auto;
 
+}
+
+.person-details{
+    padding: 20px ;
+    margin-bottom: 40px;
 }
 
 .degsination {
@@ -109,15 +113,19 @@ ul li a {
 }
 
 /* Secure Your Spot */
-.standard-class {
+.standard-class {    
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     /* width: 370.66px; */
     border-radius: 12px;
     padding: 30px;
     justify-content: center;
     box-sizing: border-box;   
 
+}
+
+.standard-class:hover{
+    cursor: pointer;
 }
 
 .cart-point {
@@ -132,10 +140,6 @@ ul li a {
     font-size: 14px;
     font-weight: 600px;
     text-transform: uppercase;
-}
-
-.btn-pro:hover {
-    background: #1D4ED8;
 }
 
 .pro-text {
@@ -163,10 +167,22 @@ ul li a {
     width: 304.67px;
 }
 
+.button-getStarted:hover{
+    background-color: rgb(224, 224, 223);
+    cursor: pointer;
+}
+
 .btn-pro {    
     font-weight: bold;
     color: white;
+    width: 304.67px;
+    height: 45px;
+    background-color: #2563EB;
+    border-radius: 8px;   
+}
 
+.btn-pro:hover {
+    background: #a7b9e8;
 }
 
 .btn-contact {
@@ -179,9 +195,25 @@ ul li a {
     width: 304.67px;
 }
 
+.btn-contact:hover{
+    background-color: rgb(224, 224, 223);
+    cursor: pointer;
+}
+
+
+.spot-class{
+    max-width: 1200px;
+    align-items: center;
+    margin: auto;
+    
+}
+
 .price-cart {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: auto;
+    justify-content: space-between;
     border-color: 2px solid #888888;
 }
 
@@ -195,28 +227,69 @@ ul li a {
 
 }
 
+.standard-cart{
+    background-color: rgb(244, 240, 234);
+}
+
 /* AI GENERATED */
 .container3{
-    display: flex;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    justify-content: center;    
+    margin: auto;
 }
+
+.venue{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.venue img{
+    width: 40px;
+    height: 40px;   
+}
+
+.map-container{
+    width:100%;
+    height:400px;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.1);
+}
+
+.map-container iframe{
+    width:100%;
+    height:100%;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
 
 /* footer */
 .footer {
     display: flex;
+    justify-content: space-between;
     background: #0D1B2A;
-    height: 145px;
-    width: 1551px;
-
+    padding: 40px 60px 40px 60px;    
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
 .footer p {
-    color: white;
+    color: rgba(255, 255, 255, 0.76);
     font-size: 16px;
     padding: 10px;
 }
@@ -228,7 +301,7 @@ ul li a {
 }
 
 .footer-links a {
-    color: white;
+    color: rgba(255, 255, 255, 0.76);
     text-decoration: none;
     font-size: 16px;
 }
