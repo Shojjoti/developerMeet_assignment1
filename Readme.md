@@ -74,25 +74,6 @@ This is the **only** section where AI usage is expected and encouraged.
 
 ---
 
-
-## 🎥 ADDITIONAL REQUIREMENT — Concept Explanation Video (Optional)
-
-> ⚠️ **This is fully optional and carries no marks in this assignment. However, it is highly recommended.** Starting from the next assignment, submitting a short explanation video like this will become **mandatory**, so use this one to get comfortable with the format early.
-
-- Record a **max 5-minute video** explaining the following basic HTML & CSS questions in your own words:
-
-  1. What is the difference between a `<div>` and a `<span>`? When would you use each?
-  2. What is the CSS Box Model? Explain `content`, `padding`, `border`, and `margin`.
-  3. What is the difference between a CSS `class` and an `id`? When should you use one over the other?
-  4. What is Flexbox, and what's the difference between `justify-content` and `align-items`?
-  5. What is the difference between `position: relative`, `absolute`, and `fixed` in CSS?
-
-- Speak naturally, in your own words — no need to read from a script.
-- Screen recording with your face on camera (or voice-over on slides/code) is fine, whichever you're comfortable with.
-- Upload the video link (YouTube/Google Drive) along with your submission.
-
----
-
 ## 🛠️ Tech Stack
 
 - HTML5
